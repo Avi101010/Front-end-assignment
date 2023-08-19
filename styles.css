@@ -313,7 +313,7 @@ body.modal-open {
 
     .menu,
     .logo {
-        font-size: 26px;
+        font-size: 20px;
     }
 
     .contact-title {
@@ -377,7 +377,7 @@ body.modal-open {
     }
 
     .modal-content {
-        max-width: 70%;
+        max-width: 80%;
     }
 
     .modal-content #modal-okay-button {
