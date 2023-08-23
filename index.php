@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -27,20 +27,24 @@
     </div>
 
     <div class="form-container">
-        <form id="contact-form" method="post" action="">
+        
+        <span id="error"></span>
+
+        <form id="contact-form">
             <div class="input-group">
-                <input type="text" id="first_name" name="first_name" placeholder="First Name" required>
-                <input type="text" id="last_name" name="last_name" placeholder="Last Name" required>
+                <input type="text" id="first_name" name="first_name" placeholder="First Name" >
+                <input type="text" id="last_name" name="last_name" placeholder="Last Name" >
             </div>
 
             <div class="input-group">
-                <input type="tel" id="phone_number" name="phone_number" placeholder="Phone Number" required">
-                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="tel" id="phone_number" name="phone_number" placeholder="Phone Number">
+                <input type="email" id="email" name="email" placeholder="Email" >
             </div>
 
             <textarea id="about" name="about" rows="4" cols="50" placeholder="About Yourself"></textarea><br>
 
             <input type="submit" value="Submit">
+
         </form>
         <div class="address">
             <p> <span>Office Address:</span> QUARK ATRIUM, Industrial Area, Sector 74, Sahibzada Ajit Singh Nagar,

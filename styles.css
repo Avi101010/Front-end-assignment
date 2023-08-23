@@ -302,6 +302,16 @@ body.modal-open {
     display: none;
 }
 
+#error {
+    display: none;
+    font-size: 16px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+    font-weight: 600;
+}
+
 /* Responsive css start */
 
 @media screen and (max-width: 1200px) {
